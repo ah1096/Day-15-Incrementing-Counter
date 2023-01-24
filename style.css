@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-    box-sizing: border-box;
-        /* if padding is added, width is not affected */
-}
+
 
 body {
-    background-color: #8e44ad;
+    background-color: #84b56b;
     color: white;
     font-family: 'Montserrat';
     margin: 0;
@@ -14,13 +11,13 @@ body {
     align-items: center;
     justify-content:center;
     height: 100vh;
-    overflow:hidden;
 }
+
 
 .counter-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     margin: 30px 50px;
 }
